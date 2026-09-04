@@ -1,0 +1,15 @@
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Nix build outputs
+result
+result-*
+.direnv/

@@ -1,0 +1,2 @@
+# No external dependencies required.
+# update_icons.py uses Python standard library modules only (urllib.request, pathlib, os, sys).
