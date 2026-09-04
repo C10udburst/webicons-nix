@@ -26,6 +26,8 @@
         "telegram" = pkgs.runCommand "telegram.png" {} "cp ${./icons/telegram.png} $out";
         "discord" = pkgs.runCommand "discord.png" {} "cp ${./icons/discord.png} $out";
         "messenger" = pkgs.runCommand "messenger.png" {} "cp ${./icons/messenger.png} $out";
+        "youtube-music" = pkgs.runCommand "youtube-music.png" {} "cp ${./icons/youtube-music.png} $out";
+        "spotify" = pkgs.runCommand "spotify.png" {} "cp ${./icons/spotify.png} $out";
         "fetlife" = pkgs.runCommand "fetlife.png" {} "cp ${./icons/fetlife.png} $out";
         "vscode" = pkgs.runCommand "vscode.png" {} "cp ${./icons/vscode.png} $out";
         "gridfinity" = pkgs.runCommand "gridfinity.png" {} "cp ${./icons/gridfinity.png} $out";
@@ -47,6 +49,8 @@
         "telegram" = ./icons/telegram.png;
         "discord" = ./icons/discord.png;
         "messenger" = ./icons/messenger.png;
+        "youtube-music" = ./icons/youtube-music.png;
+        "spotify" = ./icons/spotify.png;
         "fetlife" = ./icons/fetlife.png;
         "vscode" = ./icons/vscode.png;
         "gridfinity" = ./icons/gridfinity.png;
