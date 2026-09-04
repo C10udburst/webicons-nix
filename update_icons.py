@@ -15,7 +15,6 @@ from pathlib import Path
 # - "googleFavicon": fetched from Google Favicons service sz=128
 # - "url": fetched from direct URL
 ICONS = {
-    # Self-hosted / custom services
     "wealthfolio": {
         "type": "url",
         "url": "https://assets.wealthfolio.app/images/logo.png",
@@ -41,7 +40,6 @@ ICONS = {
         "name": "karakeep",
         "filename": "karakeep.png",
     },
-    # Google suite & productivity
     "google-docs": {
         "type": "homarr",
         "name": "google-docs",
@@ -67,7 +65,6 @@ ICONS = {
         "name": "gmail",
         "filename": "gmail.png",
     },
-    # Messengers & socials
     "whatsapp": {
         "type": "homarr",
         "name": "whatsapp",
@@ -103,16 +100,25 @@ ICONS = {
         "domain": "fetlife.com",
         "filename": "fetlife.png",
     },
-    # Dev & Tools
     "vscode": {
         "type": "homarr",
         "name": "visual-studio-code",
         "filename": "vscode.png",
     },
+    "tailscale": {
+        "type": "homarr",
+        "name": "tailscale",
+        "filename": "tailscale.png",
+    },
     "gridfinity": {
         "type": "googleFavicon",
         "domain": "https://gridfinity-cutout.pages.dev",
         "filename": "gridfinity.png",
+    },
+    "xtb": {
+        "type": "googleFavicon",
+        "domain": "xtb.com",
+        "filename": "xtb.png",
     },
 }
 
