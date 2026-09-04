@@ -30,7 +30,9 @@
         "spotify" = pkgs.runCommand "spotify.png" {} "cp ${./icons/spotify.png} $out";
         "fetlife" = pkgs.runCommand "fetlife.png" {} "cp ${./icons/fetlife.png} $out";
         "vscode" = pkgs.runCommand "vscode.png" {} "cp ${./icons/vscode.png} $out";
+        "tailscale" = pkgs.runCommand "tailscale.png" {} "cp ${./icons/tailscale.png} $out";
         "gridfinity" = pkgs.runCommand "gridfinity.png" {} "cp ${./icons/gridfinity.png} $out";
+        "xtb" = pkgs.runCommand "xtb.png" {} "cp ${./icons/xtb.png} $out";
       });
 
       # Direct paths referencing flake repository files
@@ -53,7 +55,9 @@
         "spotify" = ./icons/spotify.png;
         "fetlife" = ./icons/fetlife.png;
         "vscode" = ./icons/vscode.png;
+        "tailscale" = ./icons/tailscale.png;
         "gridfinity" = ./icons/gridfinity.png;
+        "xtb" = ./icons/xtb.png;
       };
     };
 }
