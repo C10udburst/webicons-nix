@@ -1,0 +1,41 @@
+name: Update Icons
+
+on:
+  push:
+    paths:
+      - 'update_icons.py'
+      - '.github/workflows/update-icons.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-icons:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run icon download and generator script
+        run: |
+          python3 update_icons.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add icons/ flake.nix
+          if git diff --cached --quiet; then
+            echo "No changes in icons or flake.nix to commit."
+          else
+            git commit -m "chore: update icons and flake.nix"
+            git push
+          fi
