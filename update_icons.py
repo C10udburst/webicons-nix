@@ -88,6 +88,16 @@ ICONS = {
         "domain": "messenger.com",
         "filename": "messenger.png",
     },
+    "youtube-music": {
+        "type": "homarr",
+        "name": "youtube-music",
+        "filename": "youtube-music.png",
+    },
+    "spotify": {
+        "type": "homarr",
+        "name": "spotify",
+        "filename": "spotify.png",
+    },
     "fetlife": {
         "type": "googleFavicon",
         "domain": "fetlife.com",
