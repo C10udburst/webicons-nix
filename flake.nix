@@ -34,6 +34,7 @@
         "gridfinity" = pkgs.runCommand "gridfinity.png" {} "cp ${./icons/gridfinity.png} $out";
         "xtb" = pkgs.runCommand "xtb.png" {} "cp ${./icons/xtb.png} $out";
         "outlook" = pkgs.runCommand "outlook.png" {} "cp ${./icons/outlook.png} $out";
+        "teams" = pkgs.runCommand "teams.png" {} "cp ${./icons/teams.png} $out";
       });
 
       # Direct paths referencing flake repository files
@@ -60,6 +61,7 @@
         "gridfinity" = ./icons/gridfinity.png;
         "xtb" = ./icons/xtb.png;
         "outlook" = ./icons/outlook.png;
+        "teams" = ./icons/teams.png;
       };
     };
 }

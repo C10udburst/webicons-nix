@@ -125,6 +125,11 @@ ICONS = {
         "name": "microsoft-outlook",
         "filename": "outlook.png",
     },
+    "teams": {
+        "type": "homarr",
+        "name": "microsoft-teams",
+        "filename": "teams.png",
+    },
 }
 
 
