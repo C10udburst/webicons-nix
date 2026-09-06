@@ -33,6 +33,7 @@
         "tailscale" = pkgs.runCommand "tailscale.png" {} "cp ${./icons/tailscale.png} $out";
         "gridfinity" = pkgs.runCommand "gridfinity.png" {} "cp ${./icons/gridfinity.png} $out";
         "xtb" = pkgs.runCommand "xtb.png" {} "cp ${./icons/xtb.png} $out";
+        "outlook" = pkgs.runCommand "outlook.png" {} "cp ${./icons/outlook.png} $out";
       });
 
       # Direct paths referencing flake repository files
@@ -58,6 +59,7 @@
         "tailscale" = ./icons/tailscale.png;
         "gridfinity" = ./icons/gridfinity.png;
         "xtb" = ./icons/xtb.png;
+        "outlook" = ./icons/outlook.png;
       };
     };
 }

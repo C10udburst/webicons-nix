@@ -120,6 +120,11 @@ ICONS = {
         "domain": "xtb.com",
         "filename": "xtb.png",
     },
+    "outlook": {
+        "type": "homarr",
+        "name": "microsoft-outlook",
+        "filename": "outlook.png",
+    },
 }
 
 
