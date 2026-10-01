@@ -35,6 +35,11 @@ ICONS = {
         "url": "https://github.com/siyuan-note.png",
         "filename": "siyuan.png",
     },
+    "drawio": {
+        "type": "url",
+        "url": "https://github.com/jgraph.png",
+        "filename": "siyuan.png",
+    },
     "karakeep": {
         "type": "homarr",
         "name": "karakeep",
