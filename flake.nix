@@ -23,6 +23,7 @@
         "google-slides" = pkgs.runCommand "google-slides.png" {} "cp ${./icons/google-slides.png} $out";
         "google-forms" = pkgs.runCommand "google-forms.png" {} "cp ${./icons/google-forms.png} $out";
         "gmail" = pkgs.runCommand "gmail.png" {} "cp ${./icons/gmail.png} $out";
+        "google-calendar" = pkgs.runCommand "google-calendar.png" {} "cp ${./icons/google-calendar.png} $out";
         "whatsapp" = pkgs.runCommand "whatsapp.png" {} "cp ${./icons/whatsapp.png} $out";
         "telegram" = pkgs.runCommand "telegram.png" {} "cp ${./icons/telegram.png} $out";
         "discord" = pkgs.runCommand "discord.png" {} "cp ${./icons/discord.png} $out";
@@ -51,6 +52,7 @@
         "google-slides" = ./icons/google-slides.png;
         "google-forms" = ./icons/google-forms.png;
         "gmail" = ./icons/gmail.png;
+        "google-calendar" = ./icons/google-calendar.png;
         "whatsapp" = ./icons/whatsapp.png;
         "telegram" = ./icons/telegram.png;
         "discord" = ./icons/discord.png;
