@@ -16,7 +16,7 @@
         "immich" = pkgs.runCommand "immich.png" {} "cp ${./icons/immich.png} $out";
         "home-assistant" = pkgs.runCommand "home-assistant.png" {} "cp ${./icons/home-assistant.png} $out";
         "siyuan" = pkgs.runCommand "siyuan.png" {} "cp ${./icons/siyuan.png} $out";
-        "drawio" = pkgs.runCommand "siyuan.png" {} "cp ${./icons/siyuan.png} $out";
+        "drawio" = pkgs.runCommand "drawio.png" {} "cp ${./icons/drawio.png} $out";
         "karakeep" = pkgs.runCommand "karakeep.png" {} "cp ${./icons/karakeep.png} $out";
         "google-docs" = pkgs.runCommand "google-docs.png" {} "cp ${./icons/google-docs.png} $out";
         "google-sheets" = pkgs.runCommand "google-sheets.png" {} "cp ${./icons/google-sheets.png} $out";
@@ -44,7 +44,7 @@
         "immich" = ./icons/immich.png;
         "home-assistant" = ./icons/home-assistant.png;
         "siyuan" = ./icons/siyuan.png;
-        "drawio" = ./icons/siyuan.png;
+        "drawio" = ./icons/drawio.png;
         "karakeep" = ./icons/karakeep.png;
         "google-docs" = ./icons/google-docs.png;
         "google-sheets" = ./icons/google-sheets.png;
