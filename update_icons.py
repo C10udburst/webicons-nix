@@ -38,7 +38,7 @@ ICONS = {
     "drawio": {
         "type": "url",
         "url": "https://github.com/jgraph.png",
-        "filename": "siyuan.png",
+        "filename": "drawio.png",
     },
     "karakeep": {
         "type": "homarr",
