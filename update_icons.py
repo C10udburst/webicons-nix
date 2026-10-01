@@ -70,6 +70,11 @@ ICONS = {
         "name": "gmail",
         "filename": "gmail.png",
     },
+    "google-calendar": {
+        "type": "homarr",
+        "name": "google-calendar",
+        "filename": "google-calendar.png",
+    },
     "whatsapp": {
         "type": "homarr",
         "name": "whatsapp",
