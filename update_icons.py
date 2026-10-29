@@ -14,6 +14,7 @@ from pathlib import Path
 # - "homarr": fetched from Homarr dashboard icons repository
 # - "googleFavicon": fetched from Google Favicons service sz=128
 # - "url": fetched from direct URL
+# - "local": hand-made icon already committed under icons/, never downloaded
 ICONS = {
     "wealthfolio": {
         "type": "url",
@@ -140,6 +141,10 @@ ICONS = {
         "name": "microsoft-teams",
         "filename": "teams.png",
     },
+    "organizeer": {
+        "type": "local",
+        "filename": "organizeer.png",
+    },
 }
 
 
@@ -222,6 +227,9 @@ def main():
     icons_dir.mkdir(parents=True, exist_ok=True)
 
     for key, item in ICONS.items():
+        if item["type"] == "local":
+            print(f"Skipping local icon {item['filename']}...")
+            continue
         url = get_icon_url(item)
         dest = icons_dir / item["filename"]
         download_icon(url, dest)

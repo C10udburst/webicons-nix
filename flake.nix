@@ -37,6 +37,7 @@
         "xtb" = pkgs.runCommand "xtb.png" {} "cp ${./icons/xtb.png} $out";
         "outlook" = pkgs.runCommand "outlook.png" {} "cp ${./icons/outlook.png} $out";
         "teams" = pkgs.runCommand "teams.png" {} "cp ${./icons/teams.png} $out";
+        "organizeer" = pkgs.runCommand "organizeer.png" {} "cp ${./icons/organizeer.png} $out";
       });
 
       # Direct paths referencing flake repository files
@@ -66,6 +67,7 @@
         "xtb" = ./icons/xtb.png;
         "outlook" = ./icons/outlook.png;
         "teams" = ./icons/teams.png;
+        "organizeer" = ./icons/organizeer.png;
       };
     };
 }
