@@ -38,6 +38,7 @@
         "outlook" = pkgs.runCommand "outlook.png" {} "cp ${./icons/outlook.png} $out";
         "teams" = pkgs.runCommand "teams.png" {} "cp ${./icons/teams.png} $out";
         "organizeer" = pkgs.runCommand "organizeer.png" {} "cp ${./icons/organizeer.png} $out";
+        "pi-web" = pkgs.runCommand "pi-web.png" {} "cp ${./icons/pi-web.png} $out";
       });
 
       # Direct paths referencing flake repository files
@@ -68,6 +69,7 @@
         "outlook" = ./icons/outlook.png;
         "teams" = ./icons/teams.png;
         "organizeer" = ./icons/organizeer.png;
+        "pi-web" = ./icons/pi-web.png;
       };
     };
 }

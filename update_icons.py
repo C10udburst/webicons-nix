@@ -145,6 +145,11 @@ ICONS = {
         "type": "local",
         "filename": "organizeer.png",
     },
+    "pi-web": {
+        "type": "url",
+        "url": "https://raw.githubusercontent.com/agegr/pi-web/refs/heads/main/public/icons/icon-512.png",
+        "filename": "pi-web.png",
+    },
 }
 
 
